@@ -358,11 +358,11 @@ export const sideBarLeftSocials = [
     icon: FiGithub,
     altimgname: "github",
   },
-  {
-    link: "mailto:leej200100@gmail.com",
-    icon: FiMail,
-    altimgname: "mail",
-  },
+  // {
+  //   link: "mailto:leej200100@gmail.com",
+  //   icon: FiMail,
+  //   altimgname: "mail",
+  // },
 ] as const;
 
 export const quotesData = [

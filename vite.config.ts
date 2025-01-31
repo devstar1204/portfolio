@@ -7,7 +7,7 @@ dotenv.config();
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/myportfolio/',
+  base: '/myportfolio2/',
   build: {
     // ...
     rollupOptions: {
