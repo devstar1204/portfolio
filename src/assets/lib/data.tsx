@@ -34,6 +34,11 @@ import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
 import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
+import ethicon from "../../assets/icons/ethicon.svg";
+import solanaicon from "../../assets/icons/solanaicon.svg";
+import solidityicon from "../../assets/icons/solidityicon.svg";
+import rusticon from "../../assets/icons/rusticon.svg";
+import web3icon from "../../assets/icons/web3icon.svg";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLink, FiMail } from "react-icons/fi";
 import Imprint from "../../components/Imprint";
@@ -42,12 +47,12 @@ import Privacy from "../../components/Privacy";
 export const headerIntroData = {
   title: {
     de: "こんにちは、李志成です",
-    en: "Hi, I'm ZhiCheng Lee",
+    en: "Hi, I'm Fernando Osorio",
   },
-  subtitle: "Fullstack Developer ",
+  subtitle: "Fullstack Developer & Blockchain Engineer",
   description: {
     de: "私はフルスタック開発者の 志成 です。キャリアアップと刺激的なプロジェクトへの参加を目標としています。ここでは、私の仕事と Web 開発への情熱を紹介します。一緒にデジタル ソリューションを形作り、未来を形作りましょう。",
-    en: "I'm ZhiCheng, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    en: "I'm Fernando, a fullstack developer with 8+ years of experience and I am also a blockchain engineer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
   },
   buttons: [
     {
@@ -287,6 +292,23 @@ export const skillsDataWeb = [
   },
 ] as const;
 
+export const skillsBlockchain = [
+  {
+    skillsTitle: "Blockchain",
+    skills: [
+      { title: "Solana", hash: "#Solana", icon: solanaicon, color: "#F24E1E" },
+      { title: "Ethereum", hash: "#Ethereum", icon: ethicon, color: "#F24E1E" },
+      {
+        title: "Adobe XD",
+        hash: "#Adobe XD",
+        icon: adobexdicon,
+        color: "#FF61F6",
+      },
+      { title: "Canva", hash: "#Canva", icon: canvaicon, color: "#00C4CC" },
+    ],
+  },
+] as const;
+
 export const skillsDataDesign = [
   {
     skillsTitle: "Design",
@@ -503,7 +525,7 @@ export const contactData = {
   privacyOptIn: {
     checkbox: {
       de: "私は、志成 が私に連絡する目的で私の個人データ (名前と電子メール アドレス) を使用することに同意します。",
-      en: "I agree that ZhiCheng may use my personal data (name and e-mail address) to contact me.",
+      en: "I agree that Fernando may use my personal data (name and e-mail address) to contact me.",
     },
     description: {
       de: "このリクエストを送信することにより、あなたはプライバシーポリシーを読んだことを認めます",
