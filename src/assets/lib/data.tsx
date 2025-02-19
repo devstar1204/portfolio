@@ -296,15 +296,11 @@ export const skillsBlockchain = [
   {
     skillsTitle: "Blockchain",
     skills: [
-      { title: "Solana", hash: "#Solana", icon: solanaicon, color: "#F24E1E" },
-      { title: "Ethereum", hash: "#Ethereum", icon: ethicon, color: "#F24E1E" },
-      {
-        title: "Adobe XD",
-        hash: "#Adobe XD",
-        icon: adobexdicon,
-        color: "#FF61F6",
-      },
-      { title: "Canva", hash: "#Canva", icon: canvaicon, color: "#00C4CC" },
+      { title: "Ethereum", hash: "#Ethereum", icon: ethicon, color: "#627EEA" },
+      { title: "Solana", hash: "#Solana", icon: solanaicon, color: "#10f2b0" },
+      { title: "Solidity", hash: "#Solidity", icon: solidityicon, color: "#666" },
+      { title: "Rust", hash: "#Rust", icon: rusticon, color: "#1fa5e7" },
+      { title: "Web3", hash: "#Web3", icon: web3icon, color: "#1470B8" },
     ],
   },
 ] as const;
