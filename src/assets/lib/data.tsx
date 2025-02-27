@@ -28,7 +28,7 @@ import instorMockup from "../../assets/img/instor_mockup.webp";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import filemate from "../../assets/img/filmate.png";
 // import freakingFit from "../../assets/img/freaking_fit.png";
-import profilepicture from "../img/me2.png";
+import profilepicture from "../img/me.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
@@ -48,12 +48,12 @@ import Privacy from "../../components/Privacy";
 export const headerIntroData = {
   title: {
     de: "こんにちは、李志成です",
-    en: "Hi, I'm Fernando Osorio",
+    en: "Hi, I'm Carlos Fernando",
   },
   subtitle: "Fullstack Developer & Blockchain Engineer",
   description: {
     de: "私はフルスタック開発者の 志成 です。キャリアアップと刺激的なプロジェクトへの参加を目標としています。ここでは、私の仕事と Web 開発への情熱を紹介します。一緒にデジタル ソリューションを形作り、未来を形作りましょう。",
-    en: "I'm Fernando, a fullstack developer with 8+ years of experience and I am also a blockchain engineer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    en: "I'm Carlos, a fullstack developer with 8+ years of experience and I am also a blockchain engineer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
   },
   buttons: [
     {
