@@ -12,7 +12,7 @@ const LazySiteBarRight = lazy(() => import("../components/SideBarRight"));
 const LazySiteBarLeft = lazy(() => import("../components/SiteBarLeft"));
 const LazyTechStack = lazy(() => import("../components/TechStack"));
 const LazyAboutMe = lazy(() => import("../components/AboutMe"));
-const LazyContact = lazy(() => import("../components/Contact"));
+// const LazyContact = lazy(() => import("../components/Contact"));
 const LazyHeaderIntro = lazy(() => import("../components/HeaderIntro"));
 const LazyRadialGradient = lazy(() => import("../components/RadialGradient"));
 

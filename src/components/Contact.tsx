@@ -3,7 +3,7 @@ import Button from "./Button";
 import axios from "axios";
 import { Highlight, themes } from "prism-react-renderer";
 import { contactData, toastMessages } from "../assets/lib/data.tsx";
-import { useSectionInView } from "../assets/lib/hooks";
+// import { useSectionInView } from "../assets/lib/hooks";
 import { useLanguage } from "../context/language-context";
 import { ToastContainer, toast } from "react-toastify";
 import { useTheme } from "../context/theme-context";
@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
   const [message, setMessage] = useState<string>("");
   const [cursor, setCursor] = useState<string>("");
   const [lastUpdatedField, setLastUpdatedField] = useState<string | null>(null);
-  const { ref } = useSectionInView("Contact");
+  // const { ref } = useSectionInView("Contact");
   const { language } = useLanguage();
   const { theme } = useTheme();
   const [error, setError] = useState<string | any>(null);
@@ -179,7 +179,7 @@ ${name}${lastUpdatedField === "name" ? (cursorBlink ? "|" : " ") : ""}
       >
         <div
           className="title-container flex flex-col gap-6 justify-center items-center py-16  max-lg:p-16"
-          ref={ref}
+          // ref={ref}
         >
           <motion.div
             ref={animationReference}

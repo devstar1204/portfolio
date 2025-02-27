@@ -40,7 +40,7 @@ import solidityicon from "../../assets/icons/solidityicon.svg";
 import rusticon from "../../assets/icons/rusticon.svg";
 import smartcontracticon from "../../assets/icons/smartcontracticon.svg";
 import web3icon from "../../assets/icons/web3icon.svg";
-import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
+import { GoHome, GoPerson, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLink, FiMail } from "react-icons/fi";
 import Imprint from "../../components/Imprint";
 import Privacy from "../../components/Privacy";
