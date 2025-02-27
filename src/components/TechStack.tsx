@@ -4,7 +4,7 @@ import { useSectionInView } from "../assets/lib/hooks";
 import {
   skillsDataCMS,
   skillsBlockchain,
-  skillsDataDesign,
+  // skillsDataDesign,
   skillsDataWeb,
 } from "../assets/lib/data";
 import { useTheme } from "../context/theme-context";
