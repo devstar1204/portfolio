@@ -4,7 +4,7 @@ This is a portfolio website built using React, Tailwind CSS, and TypeScript. The
 
 ## Demo
 
-You can check out the live demo of the portfolio website [here](https://leej200100.github.io/myportfolio2/).
+You can check out the live demo of the portfolio website [here](https://devstar1204.github.io/portfolio/).
 
 ## Features
 

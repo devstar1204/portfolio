@@ -88,15 +88,15 @@ const Home: React.FC = () => {
               />
 
               <LazyAboutMe />
-              <Divider
+              {/* <Divider
                 thickness="0.25rem"
                 direction="inner-left-to-middle"
                 color="lightblue"
                 height="middle"
                 dividerStyle="solid"
-              />
+              /> */}
 
-              <LazyContact />
+              {/* <LazyContact /> */}
             </div>
           </Suspense>
         </main>

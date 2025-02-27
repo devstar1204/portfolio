@@ -56,15 +56,15 @@ export const headerIntroData = {
     en: "I'm Carlos, a fullstack developer with 8+ years of experience and I am also a blockchain engineer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
   },
   buttons: [
-    {
-      name: "Contact",
-      label: {
-        de: "連絡する",
-        en: "Contact me",
-      },
-      icon: FiMail,
-      color: "main-btn",
-    },
+    // {
+    //   name: "Contact",
+    //   label: {
+    //     de: "連絡する",
+    //     en: "Contact me",
+    //   },
+    //   icon: FiMail,
+    //   color: "main-btn",
+    // },
     {
       name: "Projects",
       label: {
@@ -354,7 +354,7 @@ export const navLinks = [
   { de: "スキル", en: "Skills", hash: "#skills", icon: GoStack },
   { de: "プロジェクト", en: "Projects", hash: "#projects", icon: GoProject },
   { de: "経験", en: "Experience", hash: "#about-me", icon: GoPerson },
-  { de: "お問い合わせ", en: "Contact", hash: "#contact", icon: GoMail },
+  // { de: "お問い合わせ", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
 export const FooterLinks = [
@@ -363,23 +363,23 @@ export const FooterLinks = [
 ] as const;
 
 export const sideBarRightMail = {
-  link: "mailto:leej200100@gmail.com",
+  link: "mailto:f3rnando.osoriob@gmail.com",
   text: "myemail@com",
 } as const;
 
 export const sideBarLeftSocials = [
   // {
-  //   link: "https://www.linkedin.com/in/leej200100/",
+  //   link: "https://www.linkedin.com/in/f3rnando.osoriob/",
   //   icon: FiLinkedin,
   //   altimgname: "linkedin",
   // },
   {
-    link: "https://github.com/leej200100",
+    link: "https://github.com/devstar1204",
     icon: FiGithub,
     altimgname: "github",
   },
   // {
-  //   link: "mailto:leej200100@gmail.com",
+  //   link: "mailto:f3rnando.osoriob@gmail.com",
   //   icon: FiMail,
   //   altimgname: "mail",
   // },
