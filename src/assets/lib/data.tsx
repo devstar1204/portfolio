@@ -38,6 +38,7 @@ import ethicon from "../../assets/icons/ethicon.svg";
 import solanaicon from "../../assets/icons/solanaicon.svg";
 import solidityicon from "../../assets/icons/solidityicon.svg";
 import rusticon from "../../assets/icons/rusticon.svg";
+import smartcontracticon from "../../assets/icons/smartcontracticon.svg";
 import web3icon from "../../assets/icons/web3icon.svg";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLink, FiMail } from "react-icons/fi";
@@ -300,6 +301,7 @@ export const skillsBlockchain = [
       { title: "Solana", hash: "#Solana", icon: solanaicon, color: "#10f2b0" },
       { title: "Solidity", hash: "#Solidity", icon: solidityicon, color: "#666" },
       { title: "Rust", hash: "#Rust", icon: rusticon, color: "#1fa5e7" },
+      { title: "SmartContract", hash: "#SmartContract", icon: smartcontracticon, color: "#1EAE5C" },
       { title: "Web3", hash: "#Web3", icon: web3icon, color: "#1470B8" },
     ],
   },
